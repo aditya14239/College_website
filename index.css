@@ -1,0 +1,244 @@
+div.upper
+{
+
+    background-color:#efc600;
+    text-align: right;
+    font-size:18px;
+    box-sizing:border-box;
+    height:29px;
+    margin-top:-10px;
+    margin-left:-10px;
+    margin-right:5px;
+    padding-top:5px;
+}
+p.text
+{
+    text-align:center;
+    margin-top:-8px;
+}
+h1.hansraj
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #b04400;
+    font-family: 'Times';
+    text-transform: uppercase;
+    margin-top: -120px;
+    text-align:center;
+}
+
+
+.menu-bar
+{
+  background-color:#b04400;
+  text-align: center;
+  height:35px;
+  margin-top:10px
+  margin-bottom:-10px;
+  padding:2px;
+}
+.menu-bar> ul{
+     display:inline-flex;
+     list-style:none;
+     color:white;
+     margin-left:-5px;
+  margin-right:-5px;
+  border-radius:2px 2px 2px 2px;
+  text-align: center;
+
+}
+.menu-bar> ul> li{
+  width:120px;
+  height:20px;
+  padding-left:5px;
+  padding-right:5px;
+  margin:0px;
+  font-size:18.5px;
+
+
+}
+.menu-bar> ul> li> a{
+  text-decoration:none;
+  color:white;
+  border-right:1px solid white;
+  border-left:1px solid white;
+
+
+}
+
+.submenu-1
+{
+  display: none;
+}
+.menu-bar> ul> li:hover .submenu-1
+{
+  display:block;
+  position:absolute;
+  background:white;
+  color:#b04400;
+  margin-top:3px;
+  margin-left:-20px;
+}
+.menu-bar> ul> li:hover .submenu-1 >ul
+{
+  display: block;
+  margin:5px;
+  list-style: none;
+  color:black;
+  text-decoration:none;
+  text-align:left;
+}
+.menu-bar >ul> li:hover .submenu-1 >ul> li
+{
+   width: 180px;
+   padding:8px 14px;
+   color:#b04400;
+   border-bottom:1px solid #b04400;
+   border-right:1px solid #b04400;
+   border-left: 1px solid #b04400;
+   text-decoration: none;
+}
+.submenu-2
+{
+    display: none;
+      list-style:none;
+
+}
+.hoversub:hover .submenu-2
+{
+  position:absolute;
+  display: block;
+  list-style:none;
+  margin-top:-35px;
+  width:150px;
+  margin-left:167px;
+  border-bottom:1px solid #b04400;
+  border-right:1px solid #b04400;
+  border-left: 1px solid #b04400;
+  border-top: 1px solid #b04400;
+
+  background: white;
+  color:#b04400;
+}
+.fa {
+  margin-left:10px;
+}
+.new {
+				margin-left: -5px;
+				padding: 5px;
+			}
+.new  a { background-color:white
+  		 text-decoration: none;
+				color: white;
+			}
+      .boxes {
+        height: 20vh;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 10px;
+        width: 10vw;
+
+        transition: all 0.25s ease-in-out;
+      }
+      .boxes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .boxes:hover {
+        background-color: #b04400;
+        color: white;
+      }
+      .boxes:hover span {
+        color: white;
+      }
+
+      .boxes:hover i {
+        color: white;
+      }
+span{
+   display: block; padding-top: 20px;
+}
+a.box{
+  text-decoration: none; color: #b04400;
+}
+.fac{
+    float:right;
+    margin-right:140px;
+    margin-left: 700px;
+    margin-top:-700px;
+    width:750px;
+    height:950px;
+    border-color:#b04400;
+    border-width:20%;
+    border-radius:10px;
+}
+.fact
+{
+   float:left;
+   background:#D3D3D3;
+   width:850px;
+   padding:2px;
+   border-radius:2px;
+   margin:10px;
+
+}
+.fac-div{
+  border-top: 1px solid #d5d4d4;
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 50%;
+	display: inline-block;
+}
+.faculty-image {
+	width: 130px;
+	display: inline-block;
+	height: 170px;
+	text-align: center;
+	padding: 15px;
+}
+.faculty-image img {
+	max-width: 100%;
+	max-height: 100%;
+	border-radius: 5px;
+	transition: 0.1s;
+	border: 1px solid #e8e8e8;
+}
+.faculty-details {
+	width: calc(100% - 206px);
+	vertical-align: top;
+	display: inline-block;
+	padding: 20px 5px;
+}
+.under{
+  text-decoration: underline;
+}
+.upperbox
+{
+  display: block;
+  height:1000px;
+  width:100%;
+  margin:5px;
+}
+.container{
+  display: block;
+  width:200px;
+  float:left;
+  height:700px;
+  margin-left:50px;
+  margin-top: 10px;
+}
+.row{
+  display: block;
+  width:210px
+  height:50px;
+  padding:10px;
+  margin-top:10px;
+  margin-left:20px;
+}
+.wid{
+  width:200px;
+  height:450px;
+
+}
